@@ -1,8 +1,5 @@
 # CrediKhaata - Shopkeeper Credit Management System
 
-![CrediKhaata Logo](https://via.placeholder.com/150x50?text=CrediKhaata) 
-*(Note: Add your actual logo here if available)*
-
 A RESTful backend service that enables small shopkeepers to manage customer credit accounts, track loans, record repayments, and receive payment reminders.
 
 ## Features
@@ -48,11 +45,11 @@ A RESTful backend service that enables small shopkeepers to manage customer cred
 3. Set up environment variables:
 - Create a .env file in the root directory with the following content:
 
-```bash
-PORT=3000
-JWT_SECRET=your_strong_secret_here
-JWT_EXPIRES_IN=2d
-```
+    ```bash
+    PORT=3000
+    JWT_SECRET=your_strong_secret_here
+    JWT_EXPIRES_IN=2d
+    ```
 
 4. Initialize the database:
 ```bash
@@ -170,7 +167,7 @@ node app.js
 ## 🚀 Deployment
 
 - Live Demo: The application is hosted on Render
-- Access it here: 
+- Access it here: https://credikhaata-a3su.onrender.com
 
 ## Google Drive Upload 
 
